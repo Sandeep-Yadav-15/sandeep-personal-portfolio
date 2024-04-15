@@ -1,0 +1,264 @@
+/*General*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+/*Put Genere Styling Navigation Bar*/
+
+* {
+    /*Targert Whole Page*/
+    margin: 0px;
+    /*completely remove*/
+    padding: 0px;
+}
+
+/*Body Iam Gonna Target the entire HTML in the body*/
+body {
+    font-family: "Poppins", sans-serif
+}
+
+/*Add Html*/
+html {
+    scroll-behavior: smooth;
+    /*so that we add our links to the different secetion on our page it's goona not instantly
+    go to the page its goona down scrool smooth page*/
+}
+
+/*Target our pagragraphy elements*/
+p {
+    color: rgb(85, 85, 85);
+}
+
+/*Transition And this is going to be for the all the links and for another class  btm form buttom they have transition that is 
+goona basically change between two states two styles and not be instanteneous*/
+/* a,
+.btn {
+    transition: all 300ms ease;
+} */
+
+/*Our Navigation Desktop-nav*/
+#desktop-nav,
+.nav-link {
+    display: flex;
+}
+
+nav {
+    justify-content: space-around;/*There will be left and right space no matter how big or small the screen is.*/
+    align-items: center;
+    height: 17vh;
+    /*Means screen height so 100 views height takes bascially the whole screen and nav is set to take 17% 
+    of whole screen*/
+}
+
+.nav-link {
+    gap: 2rem;/*betwen the element are flex*/
+    list-style: none;/*remove bullet points in our links*/
+    font-size: 1.5rem;/*Means unit of measurment*/
+}
+
+a {
+    /*style the link element*/
+    color: black;
+    text-decoration: none;
+    text-decoration-color: whitesmoke;
+}
+
+/*Target links when we hover them*/
+a:hover {
+    color: gray;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(154, 153, 153);
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+.logo:hover {
+    cursor: default;
+}
+
+/*Section*/
+section{
+    padding-top: 4vh;/*because we want a abit of space between each section*/
+    height: 96vh;/*and together make up hundreds*/
+    margin: 0 10rem;/*0 top and buttom and 10 on the side*/
+    box-sizing: border-box;
+    min-height: fit-content;/*bascially its ensuring that thing are not overlapping each other*/
+}
+
+/* .section-container{
+    display: flex;
+} */
+
+/*Profile-Section*/
+#profile{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+.section_pic-container img{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: 52px 0;
+    border-radius: 50%;
+}
+
+.section_text{
+    align-self: center;
+    text-align: center;
+}
+
+.section_text p{
+    font-weight: 600;
+}
+
+.section__text__p1{
+    text-align: center;
+    
+}
+
+.section__text__p2{
+    font-size: 1.80rem;
+    margin-bottom: 1rem;
+
+}
+
+.title{
+    font-size: 3rem;
+    text-align: center;
+}
+
+#socials-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+/*to create little section for the icons*/
+.icon{
+    cursor: pointer;
+    height: 3rem;
+}
+
+/*BUTTONS*/
+.btn-container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+/*Now We Going to target the btn-color*/
+.btn-color-1, .btn-color-2{
+    border: rgb(53, 53, 53) 0.1rem solid;
+    font-weight: 600;
+    border-radius: 2rem;
+    padding: 1rem;
+    width: 10rem;
+    transition: all 300ms ease;
+    background: none;
+}
+
+.btn-color-1:hover, .btn-color-2:hover{
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    border: rgb(255, 255, 255);
+    
+}
+
+.btn-color-1:hover, .btn-color-2{
+    background-color: rgb(53, 53, 53);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body{
+    background-color: aliceblue;
+    font-family: 'Dosis', sans-serif;
+    background: #fff;
+}
+
+
+.container{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    justify-content: space-around;
+    height: 17vh;
+    align-items: center;
+}
+
+.container>div{
+    margin-left: 50px;
+}
+
+#main{
+    margin-left: 100px;
+    margin-right: 100px;
+    float: right;
+    font-size: larger;
+    
+}
+
+#main > a{
+    text-decoration: none; 
+    padding-left: 50px;
+    color: #333;
+    margin-bottom: 50px;
+}
+
+img{
+    height: 182px;
+    width: 185px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    height: 80vh;
+    padding-top: 120px;
+
+}
+
+.text{
+    text-align: center;
+    margin: 0px;
+}
+
+p{
+    color: rgb(85, 85, 85);
+}
+
+.text h1{
+    color: rgb(61, 56, 56);
+    margin: 0px;
+} */
