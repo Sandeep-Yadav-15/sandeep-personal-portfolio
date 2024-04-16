@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!--Nav Section-->
+
+    <!--inside a body element we create nav element--->
+    <nav id="desktop-nav">
+        <!--It going to be id desktop nav we going to be use this id to target with our style sheets--->
+        <div class="logo">Sandeep Yadav</div>
+        <div>
+            <ul class="nav-link">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <!-- in html document add another nav becuse we create hamburger menu -->
+    <!-- <nav id="hamburger-nav">
+    <div class="logo">Sandeep Yadav</div>
+    <div class="hamburger-menu">
+        <div class="hamburger-icon"></div>
+    </div>
+   </nav> -->
+
+    <!--now we create a section -->
+
+    <!--Profile Section-->
+
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="./assets/Photo1.jpg" alt="sandeep yadav profile pic">
+        </div>
+
+        <!--Profile Text-->
+
+        <div class="section_text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Sandeep Yadav</h1>
+            <p class="section__text__p2">Full Stack Developer</p>
+
+            <!--Button Section-->
+
+            <div class="btn-container">
+                <button class="btn-color-1" onclick="window.open('./assets/Sandeep_Yadav_Resume.pdf')">Download
+                    Resume</button>
+                <button class="btn-color-2" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+
+            <!--Social Icon-->
+
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My linkedin Profile" class="icon"
+                    onclick="location.href='https://in.linkedin.com/'">
+                <img src="./assets/github.png" alt="My github Profile" class="icon"
+                    onclick="location.href='https://github.com/login'">
+            </div>
+        </div>
+    </section>
+
+
+    <!--Next Section Will Be A About-->
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/about-pic.jpg" alt="profile picture" class="about-pic">
+            </div>
+           
+            <!--Container Box_1-->
+
+            <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="./assets/experience.png" alt="experience icon" class="icon">
+                            <h3>Experience</h3>
+                            <p>1 Year <br> Full Stack Development</p>
+                        </div>
+
+                        <!--Container Box_2-->
+    
+                        <div class="details-container">
+                            <img src="./assets/education.png" alt="education icon" class="icon">
+                            <h3>Education</h3>
+                            <p>B.E Computer Engineering</p>
+                        </div>
+    
+                    </div>
+    
+                    <!--Paragraph Container-->
+
+                    <div class="text-container">
+                        <p>My name is Sandeep and I am from Pune. If I talk about my education, I have completed a Bachelors
+                            degree in Computer science from Pune university of my city. Taking about my strengths,I am
+                            self-motivated, I can adjust myself to any environment, I don't wait for the deadline, I finish
+                            my work before the deadline.
+    
+                            My weakness is I just can't keep any work pending. I wanted to complete my work on time,
+                            otherwisw it Disturbs my routine also.
+                            If I talk about my short term goal, I want to start my career as a Python and
+                            my long term goal is to be an industry expert.</p>
+                    </div>
+    
+                </div>
+
+        </div>
+
+            <!--Arrow-->
+        <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+
+    </section>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="container">
+    <div>
+        <h1>Sandeep Yadav</h1>
+    </div>
+    <div>
+        <div id="main">
+                <a href="about.html">About</a>
+                <a href="experience.html">Experience</a>
+                <a href="contact.html">Contact</a>
+                <a href="project.html">Project</a>
+        </div>
+    </div>
+</div>
+
+<div class="profile">
+   <div>
+    <img src="./assets/Photo1.jpg" alt="pic">
+   </div>
+
+   <div class="text">
+    <p>Hello I am</p>
+    <h1> Sandeep Yadav</h1>
+    <p>Full Stack Developer</p>
+   </div>
+</div> -->
